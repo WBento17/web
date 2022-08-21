@@ -220,6 +220,7 @@ a {
     width: 24px;
     height: 24px;
     filter: invert(1);
+    cursor: pointer;
 }
 
 .icon:hover {
@@ -417,7 +418,7 @@ a {
 }
 
 .t_projeto a {
-    margin-right: 15px;
+    margin-right: 35px;
     font-size: 15px;
 }
 
@@ -485,19 +486,24 @@ a {
 .icon2 {
     transition: .5s;
     cursor: pointer;
+    color: var(--text-color);
 }
 
 .icon3 {
     transition: .5s;
     cursor: pointer;
+    color: var(--text-color);
+    font-size: 25px;
 }
 
 .icon3:hover {
     transform: translateX(10px);
+    color: #00ccff;
 }
 
 .icon2:hover {
     transform: translateY(-8px);
+    color: #d400d4;
 }
 
 .fa-code {
