@@ -458,6 +458,10 @@ a {
     filter: invert(1);
 }
 
+.subtitulo2 {
+    font-size: 12px
+}
+
 .like {
     display: flex;
     flex-direction: row;
