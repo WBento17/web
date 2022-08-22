@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+:root {
+        --body-bg-color: #FAF7FD;
+        --purple: #BB99DD;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--body-bg-color);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 90px;
+}
+
+.fotoperfil {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: var(--purple) 2px solid;
+}
+
+
+.foto1 {
+    width: 190px;
+    height: 190px;
+    inset: 3px;
+    position: relative;
+}
+
+.fotoperfil img {
+    border-radius: 50%;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.textoperfil {
+    font-size: 16px;
+    font-weight: 300;
+    color: var(--purple);
+    text-align: center;
+    margin-top: 15px;
+}
+
+.textop {
+    text-decoration: none;
+    color: var(--purple);
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.desca {
+    color: #c45bed;
+    font-size: 10px;
+    margin-left: 5px;
+}
+
+.desca:hover {
+    transition: .3s;
+    transform: translateY(5px);
+    cursor: pointer;
+}
+
+.links {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.botao {
+    width: 326px;
+    height: 49px;
+    border: #BB99DD 2px solid;
+    background-color: var(--body-bg-color);
+    cursor: pointer;
+    color: var(--purple);
+    border-radius: 5px;
+    margin-top: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+
+@media screen and (max-width: 420px) {
+    .botao {
+        width: 300px;
+    }
+}
+
+
+.botao:hover {
+    box-shadow: 0 0 10px #c45bed, 0 0 40px #c45bed, 0 0 80px #c45bed;
+    transition: 0.5s;
+    transform: translateY(-10px);
+    color: #c45bed;
+}
+
+.linksocial {
+    margin-top: 35px;
+}
+
+.linksocial img {
+    margin: 10px;
+}
+
+.linksocial img:hover {
+    transition: .3s;
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.linksocial li {
+    list-style: none;
+}
